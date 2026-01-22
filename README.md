@@ -23,9 +23,14 @@ quadruped-assembler/
 │ ├── converter.py # Конвертер URDF → MJCF
 │ ├── assembler.py # Сборщик квадрупедного робота
 │ └── test.py # Визуализатор
+
+
+
 ├── configs/ # Модели роботов
 │ ├──# Модули ног
 │ └── torso.xml # Корпус
+
+
 ├── outputs/ # MJCF
 ├── requirements.txt # Зависимости
 ├── LICENSE # MIT лицензия
