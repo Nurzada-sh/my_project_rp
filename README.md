@@ -19,22 +19,12 @@
 ## Структура проекта
 
 quadruped-assembler/
-├── src/ # Исходный код
-│ ├── converter.py # Конвертер URDF → MJCF
-│ ├── assembler.py # Сборщик квадрупедного робота
-│ └── test.py # Визуализатор
-
-
-
-├── configs/ # Модели роботов
-│ ├──# Модули ног
-│ └── torso.xml # Корпус
-
-
-├── outputs/ # MJCF
-├── requirements.txt # Зависимости
-├── LICENSE # MIT лицензия
-└── README.md # Документация
+src/ 
+configs/ # Модели роботов
+outputs/ # MJCF
+requirements.txt # Зависимости
+LICENSE # MIT лицензия
+README.md # Документация
 
 ## Технологии
 - Python 3.8+
